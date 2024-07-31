@@ -1,0 +1,163 @@
+body {
+    font-family: 'MedievalSharp', cursive;
+    background-size: contain;
+    background-attachment: fixed;
+    color: #f0e6d2;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffd700;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#chat-container {
+    height: 90dvh;
+    max-height: 630px;
+    overflow-y: auto;
+    border: 2px solid #8b4513;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#chat-messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    max-width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.user-message {
+    background-color: #4b3621;
+    align-self: flex-end;
+    text-align: left;
+    justify-content: flex-end; /* 메시지를 오른쪽에 배치 */	
+}
+
+.assistant-message {
+    background-color: #2f4f4f;
+    align-self: flex-start;
+    text-align: left;
+}
+
+#input-container {
+    display: flex;
+}
+
+#user-input {
+    flex-grow: 1;
+    resize: none;
+    padding: 10px;
+    border: 2px solid #8b4513;
+    border-radius: 5px 0 0 5px;
+    background-color: #2c2c2c;
+    color: #f0e6d2;
+    font-size: 16px;
+    width: calc(100% - 80px); /* 버튼의 크기를 고려한 넓이 조정 */
+    min-height: 40px;
+    max-height: 150px; /* 필요에 따라 조정 가능 */
+    overflow-y: auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8b4513;
+    color: #f0e6d2;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a0522d;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #a0a0a0;
+}
+
+#send-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8b4513;
+    color: #f0e6d2;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#send-btn:hover {
+    background-color: #a0522d;
+}
+
+#download-txt {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8b4513;
+    color: #f0e6d2;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#download-html {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8b4513;
+    color: #f0e6d2;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#download-html:hover {
+    background-color: #a0522d;
+}
+
+#download-csv:hover {
+    background-color: #a0522d;
+}
+
+#download-txt:hover {
+    background-color: #a0522d;
+}
+
+#download-csv {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8b4513;
+    color: #f0e6d2;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
