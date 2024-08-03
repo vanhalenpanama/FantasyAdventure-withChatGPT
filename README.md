@@ -7,6 +7,23 @@
 [https://vanhalenpanama.github.io/FantasyAdventure-withChatGPT/](https://vanhalenpanama.github.io/FantasyAdventure-withChatGPT/)
 
 
+## WBS
+```mermaid
+gantt
+    title WBS
+    dateFormat  YYYY-MM-DD
+    section 일정
+    아이디어 기획         :2024-07-28, 1d
+       화면 설계       :2024-07-28, 1d
+    AI API 연동      :2024-07-28, 1d
+    테스트 및 코드 개선            :2024-07-29, 2d
+    README 파일 작성      :2024-07-29, 4d
+       리포지토리 생성       :2024-07-31, 1d
+    공개 URL 생성         :2024-07-31, 1d
+    문서 작업 및 발표 준비     :2024-08-01, 2d
+```
+
+
 ## Figma
 [https://www.figma.com/design/xAzfDTvGdTWT1gBAc9WWhM/Fantas-Adventur-with-ChatGPT-figma](https://www.figma.com/design/xAzfDTvGdTWT1gBAc9WWhM/Fantas-Adventur-with-ChatGPT-figma)
 ![design](./img/design.png)
@@ -22,5 +39,7 @@
 
 
 ## 개발 비화
-- 컬러 코드와 Tailwind CSS 
-- 저작권 문제
+1.컬러 코드와 Tailwind CSS 
+- Tailwind CSS는 컬러 코드를 커스텀 설정해야 사용할 수 있는 방식이여서 원하는 색상 사용에 불편함을 느껴 사용을 포기
+
+2.저작권 문제
