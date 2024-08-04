@@ -2,7 +2,7 @@
 판타지 세계로의 모험을 즐길 수 있도록 chatGPT가 DM(던전 마스터)로서 대화를 진행해주는 챗봇 서비스입니다.
 - 작성 언어 : HTML, CSS, JavaScript
 
-![demo](./img/202408demo.gif)
+![demo](./img/demo.gif)
 
 
 ## 배포 URL
