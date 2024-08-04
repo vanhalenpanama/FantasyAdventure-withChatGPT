@@ -1,6 +1,7 @@
 # Fantasy Adventure with ChatGPT
 판타지 세계로의 모험을 즐길 수 있도록 chatGPT가 DM(던전 마스터)로서 대화를 진행해주는 챗봇 서비스입니다.
 - 작성 언어 : HTML, CSS, JavaScript
+![demo](./img/demo.gif)
 
 
 ## 배포 URL
@@ -39,7 +40,6 @@ gantt
 
 
 ## 개발 비화
-1.컬러 코드와 Tailwind CSS 
-- Tailwind CSS에서 컬러 코드는 커스텀 컬러로 별도로 설정해서 사용하는 방식이여서 원하는 색상을 적용할 때 불편함을 느껴서 사용을 포기
+### 컬러 코드와 Tailwind CSS 
+Tailwind CSS에서 컬러 코드는 커스텀 컬러로 별도로 설정해서 사용하는 방식이여서 원하는 색상을 적용할 때 불편함을 느껴서 사용을 포기
 
-2.저작권 문제
