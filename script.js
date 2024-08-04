@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 배경 이미지 변경 기능
     // 사용 가능한 이미지 번호 배열 초기화
-    let availableImages = Array.from({ length: 10 }, (_, i) => i);
+    let availableImages = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
     let usedImages = [];
 
     // 배경 이미지를 랜덤하게 변경하는 함수
